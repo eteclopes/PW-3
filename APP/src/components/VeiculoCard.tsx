@@ -9,7 +9,15 @@ export function VeiculoCard({ veiculo }: Props) {
     <div style={{ border: "1px solid #ccc", margin: 10, padding: 10 }}>
       <h2>{veiculo.modelo}</h2>
       <p>{veiculo.descricao}</p>
-
+      <p>{veiculo.Fabricantes_id}</p>
+      {veiculo.fotos.length > 0 && (
+        <img
+          src={veiculo.fotos[0]}
+          alt={veiculo.modelo}
+          style={{ width: "100%", maxWidth: 300, display: "block", margin: "10px 0" }}
+        />
+      )}
+    
       <p>
         Ano: {veiculo.ano} / {veiculo.ano_modelo}
       </p>

@@ -1,31 +1,33 @@
-import type { Veiculo } from "../types/veiculo";
+  import type { Veiculo } from "../types/veiculo";
 
-interface Props {
-  veiculo: Veiculo;
-}
+  interface Props {
+    veiculo: Veiculo;
+  }
 
-export function VeiculoCard({ veiculo }: Props) {
-  return (
-    <div style={{ border: "1px solid #ccc", margin: 10, padding: 10 }}>
-      <h2>{veiculo.modelo}</h2>
-      <p>{veiculo.descricao}</p>
-      <p>{veiculo.Fabricantes_id}</p>
-      {veiculo.fotos.length > 0 && (
-        <img
-          src={veiculo.fotos[0]}
-          alt={veiculo.modelo}
-          style={{ width: "100%", maxWidth: 300, display: "block", margin: "10px 0" }}
-        />
-      )}
-    
-      <p>
-        Ano: {veiculo.ano} / {veiculo.ano_modelo}
-      </p>
-      <strong>
-        
-      </strong>
+  export function VeiculoCard({ veiculo }: Props) {
+    return (
+      <div className="card">
+        {veiculo.fotos.length > 0 && (
+          <img
+            src={veiculo.fotos[0]}
+            alt={veiculo.modelo}
+            className="card-img"
+          />
+        )}
 
-      <strong>R$ {veiculo.valor}</strong>
-    </div>
-  );
-}
+        <div className="card-content">
+          <h2>{veiculo.modelo}</h2>
+          <p className="descricao">{veiculo.descricao}</p>
+
+          <div className="info">
+            <span>Ano: {veiculo.ano}</span>
+            <span>Modelo: {veiculo.ano_modelo}</span>
+          </div>
+
+          <p className="fabricante">Fabricante: {veiculo.Fabricantes_id}</p>
+
+          <strong className="preco">R$ {veiculo.valor}</strong>
+        </div>
+      </div>
+    );
+  }

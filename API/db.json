@@ -52,10 +52,10 @@
     { "id": 14, "Anunciantes_id": 3, "Fabricantes_id": 4, "modelo": "S10", "descricao": "Pickup versátil para aventuras", "valor": 130000, "ano": 2019, "ano_modelo": 2020, "fotos": ["https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/portable-navigation/jellys/05-images/s10.jpg?imwidth=1200"] },
     { "id": 15, "Anunciantes_id": 4, "Fabricantes_id": 5, "modelo": "Tiguan", "descricao": "SUV familiar e confortável", "valor": 140000, "ano": 2021, "ano_modelo": 2022, "fotos": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmxBlrEpHtQpAA0T-_VnnAoSqbZQaQAEe_IA&s"] },
     { "id": 16, "Anunciantes_id": 5, "Fabricantes_id": 6, "modelo": "Serie 3", "descricao": "Sedan esportivo de luxo", "valor": 220000, "ano": 2020, "ano_modelo": 2021, "fotos": ["https://cdn.motor1.com/images/mgl/jlwrMo/s3/novo-bmw-serie-3-2027---projecao.jpg"] },
-    { "id": 17, "Anunciantes_id": 6, "Fabricantes_id": 7, "modelo": "GLC", "descricao": "SUV premium com tecnologia", "valor": 280000, "ano": 2022, "ano_modelo": 2023, "fotos": ["glc1.jpg", "glc2.jpg"] },
-    { "id": 18, "Anunciantes_id": 7, "Fabricantes_id": 8, "modelo": "Q5", "descricao": "SUV elegante e sofisticado", "valor": 200000, "ano": 2019, "ano_modelo": 2020, "fotos": ["q5_1.jpg", "q5_2.jpg"] },
-    { "id": 19, "Anunciantes_id": 8, "Fabricantes_id": 9, "modelo": "Kicks", "descricao": "SUV urbano e moderno", "valor": 90000, "ano": 2021, "ano_modelo": 2022, "fotos": ["kicks1.jpg", "kicks2.jpg"] },
-    { "id": 20, "Anunciantes_id": 9, "Fabricantes_id": 10, "modelo": "Creta", "descricao": "SUV espaçoso e econômico", "valor": 100000, "ano": 2020, "ano_modelo": 2021, "fotos": ["creta1.jpg", "creta2.jpg"] }
+    { "id": 17, "Anunciantes_id": 6, "Fabricantes_id": 7, "modelo": "GLC", "descricao": "SUV premium com tecnologia", "valor": 280000, "ano": 2022, "ano_modelo": 2023, "fotos": ["https://www.webmotors.com.br/imagens/prod/379565/MERCEDESBENZ_GLC_300_2.0_MHEV_COUPE_4MATIC_9GTRONIC_3795651455466208.webp"] },
+    { "id": 18, "Anunciantes_id": 7, "Fabricantes_id": 8, "modelo": "Q5", "descricao": "SUV elegante e sofisticado", "valor": 200000, "ano": 2019, "ano_modelo": 2020, "fotos": ["https://garagem360.com.br/wp-content/uploads/2023/07/Aui-Q5-S-Line-Black-2023-3-1.jpg"] },
+    { "id": 19, "Anunciantes_id": 8, "Fabricantes_id": 9, "modelo": "Kicks", "descricao": "SUV urbano e moderno", "valor": 90000, "ano": 2021, "ano_modelo": 2022, "fotos": ["https://revistacarro.com.br/wp-content/uploads/2023/05/Kicks-2023-Cinza-Grafite-white-closer.jpg"] },
+    { "id": 20, "Anunciantes_id": 9, "Fabricantes_id": 10, "modelo": "Creta", "descricao": "SUV espaçoso e econômico", "valor": 100000, "ano": 2020, "ano_modelo": 2021, "fotos": ["https://grandbrasil.com.br/wp-content/uploads/2022/06/hyundai-n-line-2025.webp"] }
   ],
   "veiculo_categorias": [
     { "Veiculos_id": 1, "Categorias_id": 2 },
